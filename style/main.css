@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", "Roboto"sans-serif;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.btn{
+    padding: 15px 30px;
+    border: 0,5px solid #CAA892;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom: 10px;
+    background-color: #CAA892;
+    color: #fff;
+    transition: all 0,3s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 0,5px solid #CAA892;
+    color: #CAA892;
+    transition: all 0,3s;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.navbar img{
+    width: 150px;
+    height: auto;
+}
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 75px;
+    font-family: Open Sans;
+
+
+}
+
+.menu{
+    display: flex;
+    column-gap: 25px;
+    list-style: none;
+    font-family: Open Sans;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+.menu a:hover{
+    color: #18eb31;
+    transition: all 0,3s;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.main img{
+    max-width: 750px;
+    height: auto;
+}
+.main-text{
+    min-width: 500px;
+}
+
+.label-text{
+    color: #646464;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.main-text__title{
+    color: #212121;
+    font-size: 72px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 72px;
+}
+.main-text__substitle{
+    color: #646464;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 23px 0 28px 0;
+}
+.btn-green{
+    background-color: #370063;
+    padding: 10px 28px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #370063;
+}
+.btn-green:hover{
+    border: 1px solid #370063
+    color #CAA892;
+}
+
+.services{
+    margin-bottom: 200px;
+}
+
+.services-text__title{
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 78px;
+}
+
+.services-items{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 37px;
+}
+
+.services-item{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 15px;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    -webkit-box-shadow: 4px 11px 31px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 11px 31px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 11px 31px 0px rgba(34, 60, 80, 0.2);
+    transition: all 0.3s;
+}
+
+.services-item img{
+    width: 50px;
+    height: 50px;
+}
+.services-item__text h4{
+    color: #212121;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.services-item__text p{
+    color: #CAA892;
+    font-size: 18px;
+    font-weight: 400;
+}
+.services-item:hover{
+    background-color: #CAA892;
+    transition: all 0.3s;
+}
+.services-item:hover h4,.services-item:hover p{
+    color: #fff;
+    transition: all 7ms;
+}
+.services-item svg{
+    width: 100px;
+    height: auto;
+}
+.services-item:hover svg path{
+    fill: #fff;
+}
+
+.about{
+    margin: 150px;
+}
+.about-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-item img{
+    max-width: 700px;
+    height: auto;
+}
+.about-item__text{
+    max-width: 545px;
+}
+.about-item__text h2{
+    color: #212121;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+    font-family: "Open Sans", sans-serif;
+}
+.about-item__text p{
+    color: #646464;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 22px 0 28px 0;
+}
+
+.about-second{
+    margin-top: 200px;
+}
+.about-second__img{
+    width: 320px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.about-second h2{
+    margin-bottom: 17px;
+}
+.bg-gray{
+
+    background-color: #F8F8F8;
+}
